@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter</title>
+    <!-- Tailwind CSS -->
+    <link
+      rel="stylesheet"
+      href="../tailwind/tailwind.css"
+    />
+  </head>
+  <body>
+    <div
+      class="container flex flex-col w-96 bg-gray-400 text-white p-5 text-center"
+    >
+      <div class="flex mb-3">
+        <textarea
+          id="inputText"
+          rows="4"
+          class="block p-2.5 w-full text-md weight-600 text-white bg-gray-600 rounded-lg border outline-none"
+          placeholder="Paste your text or select any text..."
+        ></textarea>
+      </div>
+      <!-- output start -->
+      <div class="flex flex-col gap-5 align-center justify-center">
+        <!-- Total word Start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Word:</p>
+          <p class="weight-bold font-xl text-white" id="wordCount"></p>
+        </div>
+        <!-- Total word End -->
+        <!-- Sentence start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Sentence:</p>
+          <p class="weight-bold font-xl text-white" id="sentenceCount"></p>
+        </div>
+        <!-- Sentence start -->
+        <!-- uppercaseWordCount start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Uppercase:</p>
+          <p class="weight-bold font-xl text-white" id="uppercaseWordCount"></p>
+        </div>
+        <!-- uppercaseWordCount End -->
+        <!-- Total lowercase start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Lowercase:</p>
+          <p class="weight-bold font-xl text-white" id="lowercaseWordCount"></p>
+        </div>
+        <!-- Total lowercase end -->
+        <!-- Total number start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Number:</p>
+          <p class="weight-bold font-xl text-white" id="totalNumberCount"></p>
+        </div>
+        <!-- Total number end -->
+        <!-- Total letter start -->
+        <div class="flex flex-row gap-5 justify-between">
+          <p class="weight-bold font-xl">Total Letter:</p>
+          <p class="weight-bold font-xl text-white" id="letterCount"></p>
+        </div>
+        <!-- Total lowercase end -->
+      </div>
+      <!-- output end -->
+    </div>
+    <!-- popup js -->
+    <script defer src="popup.js"></script>
+    <!-- Tailwind css js CDN -->
+  </body>
+</html>
