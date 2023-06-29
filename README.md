@@ -15,9 +15,11 @@
 
 ## Available on Google Chrome Web Store
 > Extension download link from google chrome web store [Go to the extension page](#)
+
 > Extension download link from Firefox add one store [Go to the extension page](#)
 
 Extension Banner Image
+
 ![bannerImage](./screenshot/word%20counter.png)
 
 
