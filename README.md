@@ -1,3 +1,4 @@
+![logo](./icon/icon128.png)
 # Word Counter FireFox Extension
 
 #
@@ -8,6 +9,10 @@
 - Get number or word
 - Get number of letter
 - Get number of sentence
+
+## Avaiable on Google Chrome Web Store
+Extension Banner Image
+![bannerImage](./screenshot/word%20counter.png)
 
 
 ***To buy This extension just go to my Buymeacoffe profile***
