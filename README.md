@@ -1,16 +1,19 @@
-![logo](./icon/icon128.png)
-# Word Counter FireFox Extension
+<p align="center" width="100%">
+  <img src="./icon/icon128.png" alt="word counter pro logo" />
+</p>
+
+# Word Counter google chrome Extension
 
 #
 
 - Get select text count
-- Get number of lowercase word
-- Get number of uppercase word
-- Get number or word
-- Get number of letter
-- Get number of sentence
+- Get the number of lowercase words
+- Get the number of uppercase words
+- Get the number of words
+- Get the number of letters
+- Get the number of sentences
 
-## Avaiable on Google Chrome Web Store
+## Available on Google Chrome Web Store
 Extension Banner Image
 ![bannerImage](./screenshot/word%20counter.png)
 
