@@ -75,7 +75,7 @@ inputText.addEventListener("change", async (event) => {
     totalNumberCount: countTotalNumbersFunc(selectedText),
     letterCount: countLetterFunc(selectedText),
   };
-  chrome.runtime.sendMessage(message);
+  await chrome.runtime.sendMessage(message);
   await chrome.storage.sync.set({ message });
 
   wordCount.innerText = wordCountFunc(selectedText);

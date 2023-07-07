@@ -78,7 +78,7 @@ const sendMessageToExtension = async (selectedText) => {
     letterCount: countLetter(selectedText),
   };
 
-  chrome.runtime.sendMessage(message);
+  await chrome.runtime.sendMessage(message);
   await chrome.storage.sync.set({ message });
 };
 

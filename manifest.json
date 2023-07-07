@@ -1,9 +1,9 @@
 {
   "name": "Word Counter Pro",
   "description": "This extension will help us to count word and many more...",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "manifest_version": 3,
-  "permissions": ["storage", "activeTab", "nativeMessaging"],
+  "permissions": ["storage"],
   "action": {
     "default_title": "Word Counter",
     "default_icon": {

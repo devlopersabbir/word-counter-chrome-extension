@@ -4,6 +4,7 @@
 
 # Word Counter google chrome Extension
 
+**Version: 0.0.3**
 #
 
 - Get select text count
