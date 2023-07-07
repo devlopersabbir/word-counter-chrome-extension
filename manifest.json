@@ -1,7 +1,7 @@
 {
   "name": "Word Counter Pro",
   "description": "This extension will help us to count word and many more...",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "manifest_version": 3,
   "permissions": ["storage"],
   "action": {
