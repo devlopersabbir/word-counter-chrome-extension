@@ -1,11 +1,11 @@
 {
   "name": "Word Counter Pro",
   "description": "This extension will help us to count word and many more...",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "manifest_version": 3,
   "permissions": ["storage"],
   "action": {
-    "default_title": "Word Counter",
+    "default_title": "Word Counter Pro",
     "default_icon": {
       "16": "icon/icon16.png",
       "24": "icon/icon38.png",
@@ -27,5 +27,10 @@
       "js": ["content/content.js"],
       "matches": ["<all_urls>"]
     }
-  ]
+  ],
+  "homepage_url": "https://github.com/devlopersabbir",
+  "author": {
+    "name": "Sabbir Hossain Shuvo",
+    "url": "https://github.com/devlopersabbir"
+  }
 }
